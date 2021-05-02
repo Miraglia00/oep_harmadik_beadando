@@ -8,6 +8,9 @@ class Green : Land
     public:
         virtual std::string get_type();
         virtual void update(Weather w);
+        virtual void print();
+        virtual float get_humidity();
+        virtual void set_humidity(float hum);
 
         Green(std::string name, float water);
         virtual ~Green();
