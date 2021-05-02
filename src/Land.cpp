@@ -1,11 +1,20 @@
 #include "Land.h"
 
-std::string Land::get_type(){
-    return _type;
-}
+using namespace std;
+
 void Land::update(Weather w){}
 
-Land::Land(std::string name, float water){
+float Land::get_humidity() {
+    return _humidity;
+}
+
+void Land::set_humidity(float hum){
+    _humidity = hum;
+}
+
+void Land::print(){}
+
+Land::Land(string name, float water){
     _name = name;
     _water = water;
 }
