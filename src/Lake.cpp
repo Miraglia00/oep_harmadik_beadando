@@ -8,15 +8,8 @@ string Lake::get_type(){
 }
 void Lake::update(Weather w){}
 
-float Lake::get_humidity(){
-    Land::get_humidity();
-}
-void Lake::set_humidity(float hum){
-    Land::set_humidity(hum);
-}
-
 void Lake::print(){
-    cout << _name << " | " << get_type() << " | " << _water << " | " << get_humidity() << endl;
+    cout << _name << " | " << get_type() << " | " << _water << endl;
 }
 
 Lake::Lake(string name, float water) : Land (name, water){
