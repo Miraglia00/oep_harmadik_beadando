@@ -12,13 +12,15 @@ class Earth
     public:
         void run();
         void step();
-        void calculateHumidity();
+        Land::Weather calculateWeather(float humidity);
+
+        void listLands();
 
         Earth(const string &filename);
         virtual ~Earth();
 
     protected:
-
+        float _humidity;
     private:
         vector<Land *> _lands;
 };
