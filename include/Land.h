@@ -11,8 +11,9 @@ class Land
 
         virtual ~Land();
         virtual std::string get_type() = 0;
-        virtual void update(Weather w) = 0;
+        virtual float update(Weather w) = 0;
         virtual void print() = 0;
+        virtual string change_to() = 0;
 
     protected:
         std::string _name;

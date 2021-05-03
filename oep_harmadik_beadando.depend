@@ -44,3 +44,32 @@
 	<vector>
 	<Land.h>
 
+1620038504 source:c:\users\zsolti-laptop\desktop\oep_harmadik_beadando\main.cpp
+	<iostream>
+	<Earth.h>
+
+1620038504 source:c:\users\zsolti-laptop\desktop\oep_harmadik_beadando\src\earth.cpp
+	"Earth.h"
+	"Plain.h"
+	"Green.h"
+	"Lake.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1620038953 source:c:\users\zsolti-laptop\desktop\oep_harmadik_beadando\src\green.cpp
+	<iostream>
+	"Green.h"
+
+1620038950 source:c:\users\zsolti-laptop\desktop\oep_harmadik_beadando\src\lake.cpp
+	<iostream>
+	"Lake.h"
+
+1620038942 source:c:\users\zsolti-laptop\desktop\oep_harmadik_beadando\src\land.cpp
+	"Land.h"
+
+1620038935 source:c:\users\zsolti-laptop\desktop\oep_harmadik_beadando\src\plain.cpp
+	<iostream>
+	"Plain.h"
+

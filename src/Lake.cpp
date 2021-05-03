@@ -6,7 +6,7 @@ using namespace std;
 string Lake::get_type(){
     return "t";
 }
-void Lake::update(Weather w){}
+float Lake::update(Weather w){}
 
 void Lake::print(){
     cout << _name << " | " << get_type() << " | " << _water << endl;

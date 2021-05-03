@@ -2,8 +2,6 @@
 
 using namespace std;
 
-void Land::update(Weather w){}
-
 void Land::print(){}
 
 Land::Land(string name, float water){
