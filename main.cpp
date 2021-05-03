@@ -6,6 +6,6 @@ using namespace std;
 int main()
 {
     Earth e("input.txt");
-    e.listLands();
+    e.run();
     return 0;
 }
