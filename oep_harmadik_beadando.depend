@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1619986905 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\main.cpp
+	<iostream>
+	<Earth.h>
+
+1619985788 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\src\land.cpp
+	"Land.h"
+
+1619988332 e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\include\land.h
+	<string>
+
+1619986053 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\src\green.cpp
+	<iostream>
+	"Green.h"
+
+1619986512 e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\include\green.h
+	<Land.h>
+
+1619986067 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\src\lake.cpp
+	<iostream>
+	"Lake.h"
+
+1619986507 e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\include\lake.h
+	<Land.h>
+
+1619986059 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\src\plain.cpp
+	<iostream>
+	"Plain.h"
+
+1619986510 e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\include\plain.h
+	<Land.h>
+
+1619987876 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\src\earth.cpp
+	"Earth.h"
+	"Plain.h"
+	"Green.h"
+	"Lake.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<stdlib.h>
+
+1619987309 e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\include\earth.h
+	<vector>
+	<Land.h>
+
