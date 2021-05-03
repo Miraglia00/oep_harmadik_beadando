@@ -8,6 +8,7 @@ class Lake : public Land
     public:
         virtual std::string get_type();
         virtual float update(Weather w);
+        virtual std::string change_to();
         virtual void print();
 
         Lake(std::string name, float water);

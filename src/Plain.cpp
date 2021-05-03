@@ -15,6 +15,8 @@ float Plain::update(Weather w){
         _water = _water + 5;
     }
 
+    if(_water < 0) _water = 0;
+
     return 1.03;
 }
 
