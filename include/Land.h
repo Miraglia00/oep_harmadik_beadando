@@ -13,7 +13,10 @@ class Land
         virtual std::string get_type() = 0;
         virtual float update(Weather w) = 0;
         virtual void print() = 0;
-        virtual string change_to() = 0;
+        virtual std::string change_to() = 0;
+
+        virtual std::string get_name();
+        virtual float get_water();
 
     protected:
         std::string _name;
