@@ -11,10 +11,11 @@ class Earth
 {
     public:
         void run();
-        void step();
-        Land::Weather calculateWeather(float humidity);
+        void step(int i);
+        bool is_same_type();
+        Land::Weather calculate_weather(float humidity);
 
-        void listLands();
+        void list_lands();
 
         Earth(const string &filename);
         virtual ~Earth();
