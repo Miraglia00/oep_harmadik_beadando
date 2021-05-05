@@ -32,7 +32,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Earth.h" />
+		<Unit filename="include/Green.h" />
+		<Unit filename="include/Lake.h" />
+		<Unit filename="include/Land.h" />
+		<Unit filename="include/Plain.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Earth.cpp" />
+		<Unit filename="src/Green.cpp" />
+		<Unit filename="src/Lake.cpp" />
+		<Unit filename="src/Land.cpp" />
+		<Unit filename="src/Plain.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
