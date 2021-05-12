@@ -17,6 +17,6 @@ class Green : public Land
     protected:
 
     private:
-};
+}
 
 #endif // GREEN_H

@@ -1,7 +1,13 @@
 # depslib dependency file v1.0
-1620053082 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\main.cpp
+1620837239 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\main.cpp
 	<iostream>
 	<Earth.h>
+	"catch.hpp"
+	"Earth.h"
+	"Land.h"
+	"Lake.h"
+	"Green.h"
+	"Plain.h"
 
 1620053009 source:e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\src\land.cpp
 	"Land.h"
@@ -72,4 +78,118 @@
 1620038935 source:c:\users\zsolti-laptop\desktop\oep_harmadik_beadando\src\plain.cpp
 	<iostream>
 	"Plain.h"
+
+1474969582 e:\egyetem\oep gyak 2.felev\oep_harmadik_beadando\catch.hpp
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<ostream>
+	<string>
+	<memory>
+	<vector>
+	<stdlib.h>
+	<vector>
+	<string>
+	<cstddef>
+	<sstream>
+	<iomanip>
+	<limits>
+	<vector>
+	<cstddef>
+	<tuple>
+	<type_traits>
+	<string>
+	<string>
+	<string>
+	<cstddef>
+	<stdint.h>
+	<string>
+	<iterator>
+	<vector>
+	<string>
+	<stdlib.h>
+	<string>
+	<vector>
+	<string>
+	<cmath>
+	<limits>
+	<string>
+	<string>
+	<set>
+	<string>
+	<string>
+	<vector>
+	<iostream>
+	<string>
+	<vector>
+	<streambuf>
+	<streambuf>
+	<ostream>
+	<fstream>
+	<memory>
+	<vector>
+	<string>
+	<iostream>
+	<ctime>
+	<string>
+	<vector>
+	<sstream>
+	<algorithm>
+	<map>
+	<stdexcept>
+	<memory>
+	<fstream>
+	<string>
+	<vector>
+	<sstream>
+	<string>
+	<ostream>
+	<map>
+	<assert.h>
+	<limits>
+	<algorithm>
+	<map>
+	<string>
+	<assert.h>
+	<vector>
+	<signal.h>
+	<set>
+	<string>
+	<fstream>
+	<stdlib.h>
+	<limits>
+	<vector>
+	<set>
+	<sstream>
+	<iostream>
+	<algorithm>
+	<random>
+	<map>
+	<ostream>
+	<stdexcept>
+	<cstdio>
+	<iostream>
+	<AfxWin.h>
+	<windows.h>
+	<unistd.h>
+	<vector>
+	<string>
+	<map>
+	<windows.h>
+	<sys/time.h>
+	<iostream>
+	<assert.h>
+	<stdbool.h>
+	<sys/types.h>
+	<unistd.h>
+	<sys/sysctl.h>
+	<map>
+	<map>
+	<iostream>
+	<cstring>
+	<sstream>
+	<string>
+	<vector>
+	<iomanip>
+	<assert.h>
 
