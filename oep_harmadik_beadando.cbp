@@ -32,11 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="empty.txt" />
 		<Unit filename="include/Earth.h" />
 		<Unit filename="include/Green.h" />
 		<Unit filename="include/Lake.h" />
 		<Unit filename="include/Land.h" />
 		<Unit filename="include/Plain.h" />
+		<Unit filename="input.txt" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Earth.cpp" />
 		<Unit filename="src/Green.cpp" />

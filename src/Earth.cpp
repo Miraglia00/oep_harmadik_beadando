@@ -68,6 +68,11 @@ Earth::Earth(const string &filename)
 {
     ifstream f;
     f.open(filename);
+    if(f.fail()) throw "Failed to open file!";
+
+    int c = f.peek();
+    if ( c == 10 ) throw "Empty file!";
+
     string name;
     string type;
     float water;
